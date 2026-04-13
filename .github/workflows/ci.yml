@@ -194,7 +194,7 @@ jobs:
           aws-region: ${{ env.AWS_REGION }}
 
       - name: Setup OpenTofu
-        uses: opentofu/setup-tofu@v1
+        uses: opentofu/setup-opentofu@v1
         with:
           tofu_version: 1.9.8
 
