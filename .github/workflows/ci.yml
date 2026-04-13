@@ -40,7 +40,7 @@ jobs:
       - name: Setup OpenTofu
         uses: opentofu/setup-opentofu@v1
         with:
-          tofu_version: 1.9.8
+          tofu_version: 1.8.5
 
       - name: OpenTofu Init
         run: tofu init -input=false -reconfigure
@@ -65,7 +65,7 @@ jobs:
       - name: Setup OpenTofu
         uses: opentofu/setup-opentofu@v1
         with:
-          tofu_version: 1.9.8
+          tofu_version: 1.8.5
 
       - name: OpenTofu Init
         run: tofu init -input=false -reconfigure
@@ -91,7 +91,7 @@ jobs:
       - name: Setup OpenTofu
         uses: opentofu/setup-opentofu@v1
         with:
-          tofu_version: 1.9.8
+          tofu_version: 1.8.5
 
       - name: OpenTofu Init
         run: tofu init -input=false -reconfigure
@@ -119,7 +119,7 @@ jobs:
       - name: Setup OpenTofu
         uses: opentofu/setup-opentofu@v1
         with:
-          tofu_version: 1.9.8
+          tofu_version: 1.8.5
 
       - name: OpenTofu Init
         run: tofu init -input=false -reconfigure
@@ -169,7 +169,7 @@ jobs:
       - name: Setup OpenTofu
         uses: opentofu/setup-opentofu@v1
         with:
-          tofu_version: 1.9.8
+          tofu_version: 1.8.5
 
       - name: OpenTofu Init
         run: tofu init -input=false -reconfigure
@@ -196,7 +196,7 @@ jobs:
       - name: Setup OpenTofu
         uses: opentofu/setup-opentofu@v1
         with:
-          tofu_version: 1.9.8
+          tofu_version: 1.8.5
 
       - name: OpenTofu Init
         run: tofu init -input=false -reconfigure
