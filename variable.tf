@@ -17,7 +17,7 @@ variable "names" {
     cluster_name     = string
     name             = string
     gateway_name     = string
-    load_balancer_ip = string   # static IP for NLB (optional, leave "" for auto)
+    load_balancer_ip = string # static IP for NLB (optional, leave "" for auto)
   }))
   default = {
     dev = {

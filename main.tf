@@ -73,8 +73,8 @@ resource "kubectl_manifest" "k8s_gw" {
     gateway_namespace = kubernetes_namespace_v1.main.metadata[0].name
     load_balancer_ip  = var.names[var.env].load_balancer_ip
     # Pass public subnet IDs for NLB placement
-    subnet_ids        = join(",", data.aws_subnets.public.ids)
-    env               = var.env
+    subnet_ids = join(",", data.aws_subnets.public.ids)
+    env        = var.env
   })
 
   depends_on = [

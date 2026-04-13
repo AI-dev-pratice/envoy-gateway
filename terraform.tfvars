@@ -7,13 +7,13 @@ names = {
     cluster_name     = "amazon-production-eks-cluster"
     name             = "envoy-gateway-controller"
     gateway_name     = "eks-gw-dev"
-    load_balancer_ip = ""   # leave empty — NLB assigns DNS automatically
+    load_balancer_ip = "" # leave empty — NLB assigns DNS automatically
   }
   production = {
     cluster_name     = "amazon-production-eks-cluster"
     name             = "envoy-gateway-controller"
     gateway_name     = "eks-gw-prod"
-    load_balancer_ip = ""   # leave empty — NLB assigns DNS automatically
+    load_balancer_ip = "" # leave empty — NLB assigns DNS automatically
   }
 }
 
